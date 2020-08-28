@@ -71,7 +71,7 @@ outMatrix[1:2,]
 outMatrix[,1:2]
 outMatrix[-c(1,3),]
 dim(outMatrix)
-setwd('C:/Users/j3kk/Machine-learning/ISL R/Chapter 2/')
+setwd('C:/Users/j3kk/Machine-learning/')
 Auto=read.csv(file = 'Auto.csv', header=T, na.strings="?")
 fix(Auto)
 dim(Auto)
